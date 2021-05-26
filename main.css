@@ -1,0 +1,44 @@
+/* reset */
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+}
+
+/* lo demás */
+
+/* header */
+.header {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  width: 30rem;
+}
+
+.menu > li {
+  font-size: 20px;
+  display: inline;
+  list-style: none;
+  padding: 0 1rem;
+}
+
+
+/* main */
+.sidebar {
+  background-color: grey;
+}
+
+.main-content {
+  background-color: pink;
+}
+
+/* footer */
