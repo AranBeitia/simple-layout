@@ -60,11 +60,12 @@ ul {
 
 /* header */
 .header {
+  height: 6rem;
   background-color: #034589;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 0.3rem 5rem;
 }
 
 .logo {
@@ -103,6 +104,7 @@ ul {
 }
 
 .main-content {
+  height: calc(100vh - 9.125rem);
   width: 85%;
   padding: 1rem;
   background-color: #0081CC;
@@ -177,6 +179,7 @@ ul {
 
 /* footer */
 .footer {
+  height: 3.125rem;
   background-color: #034589;
   display: flex;
   justify-content: space-between;
