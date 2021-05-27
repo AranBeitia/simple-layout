@@ -270,6 +270,7 @@ ul {
 .check-input-container {
   border: none;
   margin-bottom: 1rem;
+  padding-bottom: 5rem;
 }
 
 .send-button:hover {
