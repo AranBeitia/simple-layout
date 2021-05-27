@@ -54,6 +54,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem;
 }
 
 .footer-menu > li {
@@ -63,10 +64,15 @@ ul {
 }
 
 .copyright {
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .div-social {
   display: inline;
   padding: 0.5rem
+}
+
+.div-social img {
+  height: 2rem;
+  padding: 0.5rem;
 }
