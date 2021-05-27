@@ -31,7 +31,6 @@ ul {
   padding: 0 1rem;
 }
 
-
 /* main */
 .main {
   display: flex;
@@ -42,7 +41,6 @@ ul {
   padding: 1rem;
   background-color: grey;
 }
-
 
 .main-content {
   width: 70%;
@@ -68,6 +66,7 @@ ul {
   padding-left: 3rem;
 }
 
-.footer-menu  {
-  
+.div-social {
+  display: inline;
+  padding: 0.5rem
 }
