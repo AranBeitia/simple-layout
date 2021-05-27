@@ -74,7 +74,7 @@ a:hover {
 
 /* footer */
 .footer {
-  background-color: lime;
+  background-color: #034589;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,19 +84,21 @@ a:hover {
 .footer-menu > li {
   display: inline;
   list-style: none;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .copyright {
   padding-left: 2rem;
+  color: white;
+  font-size: 12px;
 }
 
 .div-social {
   display: inline;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .div-social img {
-  height: 2rem;
+  height: 1.5rem;
   padding: 0.5rem;
 }
