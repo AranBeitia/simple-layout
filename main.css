@@ -60,6 +60,7 @@ ul {
 
 /* * header */
 .header {
+  height: 6.25rem;
   background-color: #034589;
   display: flex;
   justify-content: space-between;
@@ -72,7 +73,7 @@ ul {
 }
 
 .menu > li {
-  font-size: 20px;
+  font-size: 1.25rem;
   display: inline;
   list-style: none;
   padding: 0 1rem;
@@ -87,6 +88,7 @@ ul {
 /* * main */
 .main {
   display: flex;
+  height: calc(100vh - 150px);
 }
 
 .sidebar {
@@ -96,7 +98,7 @@ ul {
 }
 
 .sidemenu li {
-  font-size: 20px;
+  font-size: 1.25rem;
   list-style: none;
   text-align: end;
   padding: 0.5rem 0;
@@ -110,6 +112,7 @@ ul {
 
 /* * footer */
 .footer {
+  height: 3.125rem;
   background-color: #034589;
   display: flex;
   justify-content: space-between;
