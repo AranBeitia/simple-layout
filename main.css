@@ -106,6 +106,73 @@ ul {
   width: 85%;
   padding: 1rem;
   background-color: #0081CC;
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+}
+
+
+/* profile */
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1-profile {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-size: 6rem;
+  font-weight: lighter;
+  color: #FFE400;
+  margin: 0px;
+  padding: 0rem 3rem;
+}
+
+.section-profileleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-characterimg {
+  width: 15rem;
+  padding-top: 1rem;
+}
+
+.profile-nametag {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #06346A;
+  margin: 0;
+}
+
+.section-profileright {
+  padding-right: 20rem;
+}
+
+.section-profileright h2 {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #06346A;
+}
+
+.section-profileright p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-profileright li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+}
+
+.list-items::before {
+  content: url('/assets/img/box-icon.png');
+  padding-right: 0.5rem;
 }
 
 /* footer */
