@@ -1,7 +1,7 @@
 /* tipo */
 @font-face {
   font-family: crash-a-like;
-  src: url(assets\fonts\crash-a-like.ttf);
+  src: url(assets/fonts/crash-a-like.ttf);
 }
 
 /* reset */
@@ -19,6 +19,7 @@ ul {
   font-family: "crash-a-like", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #FFE400;
+  font-size: 26px;
 }
 
 .hmenu:hover {
@@ -33,6 +34,7 @@ ul {
   font-family: "crash-a-like", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #FFE400;
+  font-size: 26px;
 }
 
 .vmenu:hover {
@@ -47,6 +49,7 @@ ul {
   font-family: "crash-a-like", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #FFE400;
+  font-size: 20px;
 }
 
 .fmenu:hover {
@@ -73,9 +76,6 @@ ul {
   display: inline;
   list-style: none;
   padding: 0 1rem;
-}
-
-.lookingfor{
 }
 
 /* main */
