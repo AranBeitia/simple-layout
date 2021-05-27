@@ -53,5 +53,21 @@ ul {
 /* footer */
 .footer {
   background-color: lime;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.footer-menu > li {
+  display: inline;
+  list-style: none;
+  padding: 0.5rem
+}
+
+.copyright {
+  padding-left: 3rem;
+}
+
+.footer-menu  {
+  
+}
