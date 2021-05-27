@@ -1,7 +1,7 @@
 /* tipo */
 @font-face {
   font-family: clash-a-like;
-  src: url(assets\crash-a-like.ttf);
+  src: url(assets/fonts/crash-a-like.ttf);
 }
 
 /* reset */
@@ -16,13 +16,13 @@ ul {
 }
 
 a {
-  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-family: "clash-a-like", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #FFE400;
 }
 
 a:hover {
-  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-family: "clash-a-like", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #d67c05;
 }
