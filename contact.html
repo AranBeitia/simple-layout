@@ -28,9 +28,47 @@
         <li><a href="contact.html" class="vmenu">Contact</a></li>
       </ul>
     </section>
-    <section class="main-content">content</section>
+    <section class="main-contact">
+      <h1>Contact</h1>
+      <form class="contact-form">
+        <div class="rsimple">
+          <div class="rinside">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" placeholder="Crash Bandicoot" required class="input-content">
+          </div>
+          <div class="rinside">
+          <label for="phone">Phone *</label>
+          <input type="tel" id="phone" name="phone" placeholder="+34 625 270 085" required class="input-content">
+        </div>
+        </div>
+        <div class="rsimple">
+          <div class="rinside">
+          <label for="email">E-mail *</label>
+          <input type="email" id="email" name="email" placeholder="woah@woompafruit.nsb" required class="input-content">
+          </div>
+          <div class="rinside">
+          <label for="web">Webside</label>
+          <input type="url" id="web" name="web" placeholder="https://www.crashbandicoot.com/" class="input-content">
+          </div>
+        </div>
+        <div class="large-imput">
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="N. Sanity Beach, w/o number" class="large-container">
+        </div>
+        <div class="large-imput">
+          <label for="coment">Comment</label>
+          <textarea id="coment" name="coment" rows="4" cols="50" placeholder="Anything to say?" class="large-container"></textarea>
+        </div>
+        <div class="check-input">
+          <input type="checkbox" id="privacy" name="privacy" value="privacy" required class="check-input-container">
+          <label for="vehicle1"> I have read and accept the Privacy Policy and the Legacy Terms.</label>
+        </div>
+        <div class="button-container">
+          <input type="submit" value="Submit" class="send-button">
+        </div>
+      </form>
+    </section>
   </main>
-
   <footer class="footer">
 
     <!-- COPYRIGHT -->
