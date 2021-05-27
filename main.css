@@ -33,12 +33,25 @@ ul {
 
 
 /* main */
+.main {
+  display: flex;
+}
+
 .sidebar {
+  width: 30%;
+  padding: 1rem;
   background-color: grey;
 }
 
+
 .main-content {
+  width: 70%;
+  padding: 1rem;
   background-color: pink;
 }
 
 /* footer */
+.footer {
+  background-color: lime;
+}
+
