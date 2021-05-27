@@ -75,5 +75,28 @@ a:hover {
 /* footer */
 .footer {
   background-color: lime;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
 }
 
+.footer-menu > li {
+  display: inline;
+  list-style: none;
+  padding: 0.5rem
+}
+
+.copyright {
+  padding-left: 2rem;
+}
+
+.div-social {
+  display: inline;
+  padding: 0.5rem
+}
+
+.div-social img {
+  height: 2rem;
+  padding: 0.5rem;
+}
