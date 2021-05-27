@@ -1,10 +1,10 @@
-/* tipo */
+/* * tipo */
 @font-face {
   font-family: crash-a-like;
   src: url(assets/fonts/crash-a-like.ttf);
 }
 
-/* reset */
+/* * reset */
 
 body {
   margin: 0;
@@ -58,7 +58,7 @@ ul {
   color: #d67c05;
 }
 
-/* header */
+/* * header */
 .header {
   background-color: #034589;
   display: flex;
@@ -84,7 +84,7 @@ ul {
   font-size: 1rem;
 }
 
-/* main */
+/* * main */
 .main {
   display: flex;
 }
@@ -108,7 +108,7 @@ ul {
   background-color: #0081CC;
 }
 
-/* footer */
+/* * footer */
 .footer {
   background-color: #034589;
   display: flex;
@@ -129,6 +129,7 @@ ul {
   font-size: 12px;
 }
 
+/* !
 .div-social {
   display: inline;
   padding: 0.5rem;
@@ -137,4 +138,66 @@ ul {
 .div-social img {
   height: 1.5rem;
   padding: 0.5rem;
+} */
+
+/* * icon library */
+/* ! IMPORTANT: do not modify icon library styles */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?fun136');
+  src:  url('fonts/icomoon.eot?fun136#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fun136') format('truetype'),
+    url('fonts/icomoon.woff?fun136') format('woff'),
+    url('fonts/icomoon.svg?fun136#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-pinterest:before {
+  content: "\e902";
+}
+.icon-tictoc:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+
+/* * custom styles for icons */
+
+.social-wrapper a {
+  text-decoration: none;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #d67c05;
+}
+
