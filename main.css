@@ -31,7 +31,6 @@ ul {
   padding: 0 1rem;
 }
 
-
 /* main */
 .main {
   display: flex;
@@ -43,7 +42,6 @@ ul {
   background-color: grey;
 }
 
-
 .main-content {
   width: 70%;
   padding: 1rem;
@@ -54,4 +52,3 @@ ul {
 .footer {
   background-color: lime;
 }
-
