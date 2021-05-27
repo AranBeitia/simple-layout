@@ -60,12 +60,12 @@ ul {
 
 /* * header */
 .header {
-  height: 6.25rem;
+  height: 6rem;
   background-color: #034589;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 0.3rem 5rem;
 }
 
 .logo {
@@ -88,7 +88,7 @@ ul {
 /* * main */
 .main {
   display: flex;
-  height: calc(100vh - 150px);
+  /* height: calc(100vh - 150px); */
 }
 
 .sidebar {
@@ -105,9 +105,77 @@ ul {
 }
 
 .main-content {
+  height: calc(100vh - 9.125rem);
   width: 85%;
   padding: 1rem;
   background-color: #0081CC;
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+}
+
+
+/* profile */
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1-profile {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #FFE400;
+  margin: 0px;
+  padding: 0rem 3rem;
+}
+
+.section-profileleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-characterimg {
+  width: 15rem;
+  padding-top: 1rem;
+}
+
+.profile-nametag {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #06346A;
+  margin: 0;
+}
+
+.section-profileright {
+  padding-right: 20rem;
+}
+
+.section-profileright h2 {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #06346A;
+}
+
+.section-profileright p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-profileright li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+}
+
+.list-items::before {
+  content: url('/assets/img/box-icon.png');
+  padding-right: 0.5rem;
 }
 
 /* * footer */
@@ -135,7 +203,7 @@ ul {
 /* !
 .div-social {
   display: inline;
-  padding: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .div-social img {
@@ -204,3 +272,92 @@ ul {
   color: #d67c05;
 }
 
+/* Contact */
+
+.contact-form {
+  width: 40rem;
+  color: white
+}
+
+.rsimple {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: inline;
+  justify-content: flex-end;
+}
+
+.rinside {
+  width: 20rem;
+  display: flex;
+  align-items: inline;
+  justify-content: flex-end;
+}
+
+.large-imput {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40rem;
+  display: flex;
+  align-items: inline;
+  justify-content: flex-end;
+}
+
+.large-container {
+  width: 33rem;
+  padding: 6px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.send-button {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 10rem;
+  height: 2rem;
+  padding: 6px;
+  border: none;
+  border-radius: 2rem;
+  color: #034589;
+  background-color: #FFE400;
+
+}
+
+.check-input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40rem;
+  display: flex;
+  align-items: inline;
+  justify-content: flex-end;
+}
+
+.check-input-container {
+  border: none;
+  margin-bottom: 1rem;
+  padding-bottom: 5rem;
+}
+
+.send-button:hover {
+  color: #034589;
+  background-color: #d67c05;
+
+}
+
+.button-container {
+  width: 40rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-content {
+  padding: 6px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.contact-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 2rem;
+}
