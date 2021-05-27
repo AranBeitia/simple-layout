@@ -1,6 +1,6 @@
 /* tipo */
 @font-face {
-  font-family: clash-a-like;
+  font-family: crash-a-like;
   src: url(assets\crash-a-like.ttf);
 }
 
@@ -15,13 +15,41 @@ ul {
   margin: 0;
 }
 
-a {
+.hmenu {
   font-family: "crash-a-like", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #FFE400;
 }
 
-a:hover {
+.hmenu:hover {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  color: #d67c05;
+  border-bottom: 5px solid #d67c05;
+}
+
+.vmenu {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFE400;
+}
+
+.vmenu:hover {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 0 0.5rem ;
+  color: #d67c05;
+  border-right: 5px solid #d67c05;
+}
+
+.fmenu {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFE400;
+}
+
+.fmenu:hover {
   font-family: "crash-a-like", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #d67c05;
@@ -47,6 +75,8 @@ a:hover {
   padding: 0 1rem;
 }
 
+.lookingfor{
+}
 
 /* main */
 .main {
