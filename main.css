@@ -64,11 +64,11 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 5rem;
 }
 
 .logo {
-  width: 15rem;
+  width: 10rem;
 }
 
 .menu > li {
@@ -76,6 +76,12 @@ ul {
   display: inline;
   list-style: none;
   padding: 0 1rem;
+}
+
+.lookingfor{
+  padding: 6px;
+  border: none;
+  font-size: 1rem;
 }
 
 /* main */
