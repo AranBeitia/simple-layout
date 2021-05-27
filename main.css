@@ -201,12 +201,12 @@ ul {
 
 .div-social {
   display: inline;
-  padding: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .div-social img {
   height: 1.5rem;
-  padding: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 /* Contact */
