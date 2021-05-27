@@ -1,7 +1,7 @@
 /* tipo */
 @font-face {
   font-family: crash-a-like;
-  src: url(assets\crash-a-like.ttf);
+  src: url(assets\fonts\crash-a-like.ttf);
 }
 
 /* reset */
@@ -104,7 +104,7 @@ ul {
 
 /* footer */
 .footer {
-  background-color: lime;
+  background-color: #034589;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,19 +114,21 @@ ul {
 .footer-menu > li {
   display: inline;
   list-style: none;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .copyright {
   padding-left: 2rem;
+  color: white;
+  font-size: 12px;
 }
 
 .div-social {
   display: inline;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .div-social img {
-  height: 2rem;
+  height: 1.5rem;
   padding: 0.5rem;
 }
