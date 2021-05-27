@@ -121,7 +121,7 @@ ul {
 
 .h1-profile {
   font-family: "crash-a-like", Arial, Helvetica, sans-serif;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: lighter;
   color: #FFE400;
   margin: 0px;
@@ -270,6 +270,7 @@ ul {
 .check-input-container {
   border: none;
   margin-bottom: 1rem;
+  padding-bottom: 5rem;
 }
 
 .send-button:hover {
@@ -284,17 +285,16 @@ ul {
   justify-content: flex-end;
 }
 
-.main-contact {
-  width: 85%;
-  padding: 5rem;
-  background-color: #0081CC;
-  height: 50rem;
-}
-
 .input-content {
   padding: 6px;
   border: none;
   font-size: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
+}
+
+.contact-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 2rem;
 }
