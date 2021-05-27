@@ -1,3 +1,9 @@
+/* tipo */
+@font-face {
+  font-family: clash-a-like;
+  src: url(assets\crash-a-like.ttf);
+}
+
 /* reset */
 
 body {
@@ -9,11 +15,21 @@ ul {
   margin: 0;
 }
 
-/* lo demás */
+a {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFE400;
+}
+
+a:hover {
+  font-family: "crash-a-like", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #d67c05;
+}
 
 /* header */
 .header {
-  background-color: red;
+  background-color: #034589;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +37,7 @@ ul {
 }
 
 .logo {
-  width: 30rem;
+  width: 15rem;
 }
 
 .menu > li {
@@ -38,16 +54,22 @@ ul {
 }
 
 .sidebar {
-  width: 30%;
+  width: 15%;
   padding: 1rem;
-  background-color: grey;
+  background-color: #06346A;
 }
 
+.sidemenu li {
+  font-size: 20px;
+  list-style: none;
+  text-align: end;
+  padding: 0.5rem 0;
+}
 
 .main-content {
-  width: 70%;
+  width: 85%;
   padding: 1rem;
-  background-color: pink;
+  background-color: #0081CC;
 }
 
 /* footer */
